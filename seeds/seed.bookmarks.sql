@@ -1,4 +1,5 @@
-INSERT INTO bookmarks (title, url, rating)
+INSERT INTO bookmarks (title, url, rating, description)
 VALUES
-    ('YouTube', 'https://www.youtube.com', 5),
-    ('Facebook', 'https://www.facebook.com', 4)
+  ('Thinkful', 'https://www.thinkful.com', '5', 'Think outside the classroom'),
+  ('Google', 'https://www.google.com', '4', 'Where we find everything else'),
+  ('MDN', 'https://developer.mozilla.org', '5', 'The only place to find web documentation');
